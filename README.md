@@ -10,11 +10,13 @@ One way to use it is:
 
 ```javascript
     var HEP = require('hephys');
-    var radiuscircle = 3.4; 
+    var radiuscircle = 3.4 * HEP.cm; 
     var perimeter = radiuscircle * HEP.twopi;
     var area      = Math.pow( radiuscircle, 2) * HEP.pi;
-    console.log( "area = %d", area );
-    console.log( "perimeter = %d", perimeter );
+    console.log( "area = %d cm2", area / HEP.cm2 );
+    console.log( "area = %d m2", area / HEP.m2 );
+    console.log( "perimeter = %d cm", perimeter / HEP.cm );
+    console.log( "perimeter = %d m", perimeter / HEP.m );
 ```
 
 ## Public Functions
