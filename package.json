@@ -1,0 +1,27 @@
+{
+  "name": "hephys",
+  "version": "1.0.6",
+  "description": "High Energy Physics Units and Constants",
+  "main": "HEP.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/quinonez/hephys.git"
+  },
+  "keywords": [
+    "HEP",
+    "High",
+    "Energy",
+    "Physics",
+    "Units",
+    "Constants"
+  ],
+  "author": "Fernando Quinonez <fernando.andres.quinonez.granados@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quinonez/hephys/issues"
+  },
+  "homepage": "https://github.com/quinonez/hephys#readme"
+}

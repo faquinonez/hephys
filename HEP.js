@@ -131,7 +131,7 @@
   HEP.cm3 = HEP.centimeter3;
 
   HEP.liter = 1.e+3 * HEP.cm3;
-  HEP.L = liter;
+  HEP.L = HEP.liter;
   HEP.dL = 1.e-1 * HEP.liter;
   HEP.cL = 1.e-2 * HEP.liter;
   HEP.mL = 1.e-3 * HEP.liter;       
@@ -151,7 +151,7 @@
   //
   HEP.radian      = 1.;                  
   HEP.milliradian = 1.e-3 * HEP.radian;
-  HEP.degree = (pi/180.0) * HEP.radian;
+  HEP.degree = (HEP.pi/180.0) * HEP.radian;
 
   HEP.steradian = 1.;
   
@@ -385,7 +385,7 @@ HEP.amu = HEP.amu_c2 / HEP.c_squared;
 // permeability of free space mu0    = 2.01334e-16 Mev * (ns * eplus)^2/mm
 // permittivity of free space epsil0 = 5.52636e+10 eplus^2/(MeV * mm)
 //
-HEP.mu0      = 4 * pi * 1.e-7  *  HEP.henry/HEP.m;
+HEP.mu0      = 4 * HEP.pi * 1.e-7  *  HEP.henry/HEP.m;
 HEP.epsilon0 = 1./(HEP.c_squared * HEP.mu0);
 
 //

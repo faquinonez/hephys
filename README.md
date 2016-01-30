@@ -13,7 +13,8 @@ One way to use it is:
     var radiuscircle = 3.4; 
     var perimeter = radiuscircle * HEP.twopi;
     var area      = Math.pow( radiuscircle, 2) * HEP.pi;
-    console.log( "area: %f, perimeter: %f", area, perimeter );
+    console.log( "area = %d", area );
+    console.log( "perimeter = %d", perimeter );
 ```
 
 ## Public Functions
