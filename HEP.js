@@ -232,7 +232,7 @@
   //
   // Pressure [E][L^-3]
   //
-  HEP.hep_pascal = HEP.newton/HEP.m2;   // pascal = 6.24150 e+3  *  MeV/mm3
+  HEP.pascal = HEP.newton/HEP.m2;   // pascal = 6.24150 e+3  *  MeV/mm3
   HEP.bar        = 100000 * HEP.pascal; // bar    = 6.24150 e+8  *  MeV/mm3
   HEP.atmosphere = 101325 * HEP.pascal; // atm    = 6.32420 e+8  *  MeV/mm3
 
