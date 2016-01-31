@@ -1,6 +1,6 @@
 {
   "name": "hephys",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "High Energy Physics Units and Constants",
   "main": "HEP.js",
   "scripts": {
